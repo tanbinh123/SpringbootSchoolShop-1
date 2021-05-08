@@ -18,7 +18,7 @@ public class SwaggerConfig {
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
-                .enable(false)
+                .enable(true)
                 .groupName("小张")
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.zhang.ssmschoolshop"))

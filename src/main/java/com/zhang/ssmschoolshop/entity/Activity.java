@@ -2,6 +2,7 @@ package com.zhang.ssmschoolshop.entity;
 
 /**
  * 促销活动
+ * @author Administrator
  */
 public class Activity {
 
